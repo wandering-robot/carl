@@ -1,11 +1,14 @@
-from GUI import GUI
-from keeper import Keeper
-from handler import Handler
+import pygame as py
+
+from regulatory.gui import GUI
+from regulatory.keeper import Keeper
+from regulatory.handler import Handler
 
 
 class Main:
     """Main section of code that allows for different sections to communicate"""
     def __init__(self):
+        py.init()
         self.gui = GUI()
         self.keeper = Keeper()
         self.handler = Handler()
@@ -37,3 +40,6 @@ class Main:
     def run_program(self):
         """main loop for learning/displaying"""
         pass
+
+if __name__ == "__main__":
+    Main()

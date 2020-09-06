@@ -4,7 +4,7 @@ class ProcessorBase:
     def __init__(self):
         pass
 
-    def states2surface(self):
+    def source2surface(self):
         """creates a surface given a state"""
         pass
 

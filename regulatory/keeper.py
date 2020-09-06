@@ -1,7 +1,8 @@
 class Keeper:
     """Recieves problem_name, finds relevent files, and returns them"""
-    def __init__(self,problem_name):
-        self.problem_name = problem_name
+    def __init__(self): #problem name as input
+        # self.problem_name = problem_name
+        pass
 
     def check_if_storage(self):
         """Run this code to ensure that there is a storage folder, if not create one"""
